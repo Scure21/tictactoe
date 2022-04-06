@@ -2,8 +2,8 @@
     "presets": [
       ["@babel/preset-react", {"runtime": "automatic"}],
         "@babel/preset-env",
-        "@babel/preset-typescript",
+        "@babel/preset-typescript"
       ],
-      "plugins": [],
+      "plugins": ["react-hot-loader/babel"]
   }
   
